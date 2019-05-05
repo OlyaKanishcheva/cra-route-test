@@ -1,0 +1,18 @@
+.main-menu {
+	background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 32px;
+  color: white;
+}
+
+.main-menu-link {
+  color: #ffffff;
+}
+
+.main-menu-link:hover {
+  color: #12eeee;
+}

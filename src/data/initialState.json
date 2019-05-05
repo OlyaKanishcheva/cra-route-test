@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "login": "test1",
+      "password": "1",
+      "pages": [
+        {
+          "url": "/public",
+          "access": true,
+          "text": "A",
+          "time": null
+        },
+        {
+          "url": "/private1",
+          "access": true,
+          "text": "A",
+          "time": null
+        },
+        {
+          "url": "/private2",
+          "access": true,
+          "text": "A",
+          "time": null
+        },
+        {
+          "url": "/private3",
+          "access": false,
+          "text": null,
+          "time": null
+        },
+        {
+          "url": "/admin",
+          "access": false,
+          "text": null,
+          "time": null
+        }
+      ]
+    },
+    {
+      "login": "test2",
+      "password": "2",
+      "pages": [
+        {
+          "url": "/public",
+          "access": true,
+          "text": "B",
+          "time": null
+        },
+        {
+          "url": "/private1",
+          "access": true,
+          "text": "B",
+          "time": null
+        },
+        {
+          "url": "/private2",
+          "access": false,
+          "text": null,
+          "time": null
+        },
+        {
+          "url": "/private3",
+          "access": true,
+          "text": "B",
+          "time": null
+        },
+        {
+          "url": "/admin",
+          "access": false,
+          "text": null,
+          "time": null
+        }
+      ]
+    },
+    {
+      "login": "admin",
+      "password": "3",
+      "pages": [
+        {
+          "url": "/public",
+          "access": true,
+          "text": "C",
+          "time": null
+        },
+        {
+          "url": "/private1",
+          "access": true,
+          "text": "C",
+          "time": null
+        },
+        {
+          "url": "/private2",
+          "access": true,
+          "text": "C",
+          "time": null
+        },
+        {
+          "url": "/private3",
+          "access": true,
+          "text": "C",
+          "time": null
+        },
+        {
+          "url": "/admin",
+          "access": true,
+          "text": "C",
+          "time": null
+        }
+      ]
+    },
+    {
+      "login": "guest",
+      "password": null,
+      "pages": [
+        {
+          "url": "/public",
+          "access": true,
+          "text": "D",
+          "time": null
+        },
+        {
+          "url": "/private1",
+          "access": false,
+          "text": null,
+          "time": null
+        },
+        {
+          "url": "/private2",
+          "access": false,
+          "text": null,
+          "time": null
+        },
+        {
+          "url": "/private3",
+          "access": false,
+          "text": null,
+          "time": null
+        },
+        {
+          "url": "/admin",
+          "access": false,
+          "text": null,
+          "time": null
+        }
+      ]
+    }
+  ],
+  "currentUser": {
+    "login": "guest",
+    "password": null,
+    "pages": [
+      {
+        "url": "/public",
+        "access": true,
+        "text": "D",
+        "time": null
+      },
+      {
+        "url": "/private1",
+        "access": false,
+        "text": null,
+        "time": null
+      },
+      {
+        "url": "/private2",
+        "access": false,
+        "text": null,
+        "time": null
+      },
+      {
+        "url": "/private3",
+        "access": false,
+        "text": null,
+        "time": null
+      },
+      {
+        "url": "/admin",
+        "access": false,
+        "text": null,
+        "time": null
+      }
+    ]
+  }
+}

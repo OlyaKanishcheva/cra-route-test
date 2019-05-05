@@ -1,0 +1,11 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px;
+}
+
+.auth-input {
+  font-size: 24px;
+}

@@ -1,0 +1,16 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px;
+}
+
+.text-field {
+  outline: none;
+  border: 1px solid black;
+  resize: none;
+  font-size: 32px;
+  height: 4em;
+  width: 20em;
+}

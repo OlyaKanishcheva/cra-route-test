@@ -1,0 +1,19 @@
+.user-info {
+  font-size: 24px;
+  border: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 10px;
+}
+
+.users-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.user-info__pages {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 150px 150px 350px 500px;
+}
